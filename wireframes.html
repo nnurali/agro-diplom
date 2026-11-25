@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Agro System — 14-апта UI Wireframes</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f6f3; color: #1f2937; margin: 20px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 24px; }
+    .phone { background: #ffffff; border: 2px solid #2E7D32; border-radius: 16px; padding: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+    .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e5e7eb; padding-bottom: 8px; margin-bottom: 12px; }
+    .title { font-weight: bold; color: #2E7D32; font-size: 16px; }
+    .badge { font-size: 11px; background: #e8f5e9; color: #2E7D32; padding: 2px 8px; border-radius: 8px; font-weight: bold; }
+    .field { margin-bottom: 10px; }
+    label { display: block; font-size: 12px; font-weight: bold; margin-bottom: 4px; }
+    input, select, textarea { width: 100%; box-sizing: border-box; padding: 8px; border: 1px solid #9ca3af; border-radius: 6px; font-size: 13px; }
+    .btn { display: inline-block; background: #2E7D32; color: #fff; border: none; padding: 8px 14px; border-radius: 6px; font-size: 13px; cursor: pointer; margin-right: 6px; margin-top: 6px; text-decoration: none; }
+    .error-box { background: #fdecea; border-left: 4px solid #C62828; color: #C62828; padding: 8px 10px; border-radius: 6px; font-size: 12px; margin-top: 8px; }
+    .field-err { color: #C62828; font-size: 11px; margin-top: 3px; }
+    table { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px; }
+    th, td { border: 1px solid #d1d5db; padding: 6px; text-align: left; }
+    th { background: #f3f4f6; }
+    .st-plan { color: #E65100; font-weight: bold; }
+    .st-prog { color: #1565C0; font-weight: bold; }
+    .st-done { color: #2E7D32; font-weight: bold; }
+    .footer-nav { margin-top: 14px; padding-top: 10px; border-top: 1px solid #e5e7eb; display: flex; justify-content: space-between; font-size: 12px; }
+  </style>
+</head>
+<body>
+<div class="grid">
+
+  <div class="phone">
+    <div class="header"><span class="title">01. Кіру (Login)</span><span class="badge">Т1</span></div>
+    <div class="field"><label>Телефон нөмірі (phone_number) *</label><input type="text" value="+77015551122" /></div>
+    <div class="field"><label>Рөлі (role) *</label>
+      <select><option>farmer</option><option>agronomist</option><option>admin</option></select>
+    </div>
+    <button class="btn">Кіру</button>
+    <div class="footer-nav"><span>АгроЖүйе v1.0</span><a href="#">Басты бетке өту →</a></div>
+  </div>
+
+  <div class="phone">
+    <div class="header"><span class="title">02. Басты бет (Home)</span><span class="badge">Т2, Т6</span></div>
+    <p style="font-size:13px;">Сәлем, <b>Ерлан Сүлейменов</b> (farmer)</p>
+    <table>
+      <tr><th>Алқап (field_name)</th><th>Аумағы</th><th>Топырақ</th></tr>
+      <tr><td>Солтүстік-1 алқабы</td><td>150.50 га</td><td>Қара топырақ</td></tr>
+      <tr><td>Өзен жағасы алқабы</td><td>85.00 га</td><td>Саздақ топырақ</td></tr>
+    </table>
+    <a class="btn" href="#">Дақылдар тізімі</a>
+    <a class="btn" href="#">Агрошаралар</a>
+    <a class="btn" href="#">Ауа райы</a>
+    <div class="footer-nav"><a href="#">← Артқа (Кіру)</a><a href="#">Басты бет</a></div>
+  </div>
+
+  <div class="phone">
+    <div class="header"><span class="title">03. Егілген дақылдар</span><span class="badge">Т3</span></div>
+    <table>
+      <tr><th>Алқап</th><th>Дақыл (сұрпы)</th><th>Егілген күн</th><th>Өнім (т)</th></tr>
+      <tr><td>Солтүстік-1 алқабы</td><td>Бидай (Саратовская-29)</td><td>2026-04-15</td><td>420.50</td></tr>
+      <tr><td>Өзен жағасы алқабы</td><td>Жүгері (Қазақстандық-43)</td><td>2026-05-01</td><td>310.00</td></tr>
+      <tr><td>Оңтүстік дала</td><td>Күнбағыс (Заря)</td><td>2026-04-20</td><td>380.75</td></tr>
+      <tr><td>Шығыс беткей</td><td>Бидай (Саратовская-29)</td><td>2026-04-18</td><td>165.20</td></tr>
+    </table>
+    <div class="footer-nav"><a href="#">← Артқа</a><a href="#">Басты бетке</a></div>
+  </div>
+
+  <div class="phone">
+    <div class="header"><span class="title">04. Агрошара қосу</span><span class="badge">Т4 | alt</span></div>
+    <div class="field"><label>Егілген дақыл / алқап (field_crop_id) *</label>
+      <select><option>1 — Солтүстік-1 алқабы (Бидай)</option><option>2 — Өзен жағасы алқабы (Жүгері)</option></select>
+    </div>
+    <div class="field"><label>Шара түрі (task_type) *</label>
+      <input type="text" value="" placeholder="Мысалы: Тыңайтқыш себу (Азот)" />
+      <div class="field-err">Шара түрі өрісі бос болмауы керек. Мысалы: «Тыңайтқыш себу (Азот)» деп жазыңыз.</div>
+    </div>
+    <div class="field"><label>Жоспарланған күн (scheduled_date) *</label>
+      <input type="date" value="2026-06-20" />
+      <div class="field-err">Күн дұрыс таңдалмаса, күн таңдағыштан ЖЖЖЖ-АА-КК форматындағы күнді көрсетіңіз (мысалы: 2026-06-20).</div>
+    </div>
+    <div class="field"><label>Мәртебесі (status) *</label>
+      <select><option>Жоспарланған</option><option>Орындалуда</option><option>Орындалды</option></select>
+    </div>
+    <div class="field"><label>Ескертпе (notes)</label>
+      <textarea rows="2" placeholder="Қосымша мәлімет"></textarea>
+    </div>
+    <button class="btn">Сақтау</button>
+    <div class="error-box">
+      <b>Қате (alt):</b> Агротехникалық шара сақталмады. Міндетті өрістерді толтырып, күнді тексеріңіз және «Сақтау» батырмасын қайта басыңыз.
+    </div>
+    <div class="footer-nav"><a href="#">← Артқа</a><a href="#">Басты бетке</a></div>
+  </div>
+
+  <div class="phone">
+    <div class="header"><span class="title">05. Агрошаралар тізімі</span><span class="badge">Т5</span></div>
+    <table>
+      <tr><th>Шара түрі</th><th>Күні</th><th>Мәртебе</th></tr>
+      <tr><td>Тыңайтқыш себу (Азот)</td><td>2026-05-20</td><td class="st-done">Орындалды</td></tr>
+      <tr><td>Арамшөптерге қарсы бүрку</td><td>2026-06-10</td><td class="st-done">Орындалды</td></tr>
+      <tr><td>Тамшылатып суару</td><td>2026-06-15</td><td class="st-prog">Орындалуда</td></tr>
+      <tr><td>Топырақты қопсыту</td><td>2026-05-25</td><td class="st-plan">Жоспарланған</td></tr>
+    </table>
+    <a class="btn" href="#">+ Жаңа шара қосу</a>
+    <div class="footer-nav"><a href="#">← Артқа</a><a href="#">Басты бетке</a></div>
+  </div>
+
+  <div class="phone">
+    <div class="header"><span class="title">06. Ауа райы ескертулері</span><span class="badge">Т6</span></div>
+    <table>
+      <tr><th>Алқап</th><th>Ескерту</th><th>T°C / Ылғ.</th></tr>
+      <tr><td>Солтүстік-1 алқабы</td><td>Қатты ыстық және құрғақшылық қаупі</td><td>36.5°C / 22%</td></tr>
+      <tr><td>Өзен жағасы алқабы</td><td>Нөсер жаңбыр ескертуі</td><td>17.0°C / 88%</td></tr>
+      <tr><td>Оңтүстік дала</td><td>Үсік жүру қаупі</td><td>1.5°C / 75%</td></tr>
+      <tr><td>Шығыс беткей</td><td>Қолайлы ауа райы</td><td>23.0°C / 55%</td></tr>
+    </table>
+    <div class="footer-nav"><a href="#">← Артқа</a><a href="#">Басты бетке</a></div>
+  </div>
+
+</div>
+</body>
+</html>
