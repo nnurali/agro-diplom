@@ -10,7 +10,7 @@
 ## Деректер ағындары диаграммалары (DFD)
 
 * Контекстік диаграмма (DFD Level 0 / Context): [`docs/analysis/dfd-context.png`](docs/analysis/dfd-context.png)
-* 0-деңгейлі диаграмма (DFD Level 0): [`docs/analysis/dfd-level0.png`](docs/analysis/dfd-level0.png)
+*  0-деңгейлі диаграмма (DFD Level 0): [`docs/analysis/dfd-level0.png`](docs/analysis/dfd-level0.png)
 * 1-деңгейлі диаграмма (DFD Level 1): [`docs/analysis/dfd-level1.png`](docs/analysis/dfd-level1.png)
 
 ## Дерекқор құрылымы (ERD және SQL)
