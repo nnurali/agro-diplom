@@ -1,24 +1,51 @@
 # Ауыл шаруашылығы саласын цифрландыруға арналған мобильді ақпараттық жүйе
 
+Жүйе фермерлер мен агрономдардың егістік алқаптарын, егілген дақылдарды және агротехникалық шараларды бір орталықта есепке алу мәселесін шешеді. Сонымен қатар ауа райы ескертулерін уақытылы қадағалап, дала жұмыстарын жоспарлауға арналған. Мобильді қосымша ауыл шаруашылығы мамандарына, шаруа қожалықтарының басшыларына және жүйе әкімшілеріне арналған.
+
 Дипломдық жобаның талдау және дерекқор құжаттамасы.
+
+## Мақсаты
+
+Ауыл шаруашылығы өндірісіндегі алқаптар, дақылдар, агротехникалық тапсырмалар және метеоескертулер бойынша деректерді жүйелі басқаруды қамтамасыз ету.
+
+## Пайдаланушылар
+
+- Фермер (`farmer`)
+- Агроном (`agronomist`)
+- Әкімші (`admin`)
+
+## Талаптар
+
+1. Пайдаланушы телефон нөмірі және рөлі бойынша жүйеге кіреді.
+2. Фермер өзінің егістік алқаптарының тізімін, аумағын және топырақ түрін қарайды.
+3. Пайдаланушы алқаптарда егілген дақылдарды, сұрпын, егілген күнін және болжамды өнімін көреді.
+4. Агроном немесе фермер таңдалған дақыл немесе алқап үшін жаңа агротехникалық шара қосады.
+5. Жүйе міндетті өрістер мен күн форматын (`ЖЖЖЖ-АА-КК`) тексереді және қате енгізілсе нақты түзету хабарламасын шығарады.
+6. Пайдаланушы жоспарланған, орындалудағы және орындалған агрошаралар тізімін бақылайды.
+7. Жүйе алқаптар бойынша ауа райы ескертулерін, температураны және ылғалдылықты көрсетеді.
 
 ## Жоба құрылымы
 
-* `docs/analysis/` — DFD диаграммалары (`dfd-context`, `dfd-level0`, `dfd-level1`)
-* `docs/database/` — ER-диаграмма (`erd`), SQL схемасы (`schema.sql`) және сұраныс нәтижелері (`query-results.png`)
+- `docs/analysis/` — DFD және мінез-құлық (Activity, Sequence) диаграммалары
+- `docs/database/` — ER-диаграмма (`erd`), SQL схемасы (`schema.sql`) және сұраныс нәтижелері (`query-results.png`)
+- `docs/ui/` — UI дизайн құжаттары, навигация диаграммасы және экран макеттері
+
+## Құжаттама және мінез-құлық диаграммалары (12-апта)
+
+- [Activity: агротехникалық шара қосу (docs/analysis/activity-submit-agro-task.png)](docs/analysis/activity-submit-agro-task.png)
+- [Sequence: агротехникалық шара қосу (docs/analysis/sequence-submit-agro-task.png)](docs/analysis/sequence-submit-agro-task.png)
 
 ## Деректер ағындары диаграммалары (DFD)
 
-* Контекстік диаграмма (DFD Level 0 / Context): [`docs/analysis/dfd-context.png`](docs/analysis/dfd-context.png)
-*  0-деңгейлі диаграмма (DFD Level 0): [`docs/analysis/dfd-level0.png`](docs/analysis/dfd-level0.png)
-* 1-деңгейлі диаграмма (DFD Level 1): [`docs/analysis/dfd-level1.png`](docs/analysis/dfd-level1.png)
+- Контекстік диаграмма (DFD Level 0 / Context): [`docs/analysis/dfd-context.png`](docs/analysis/dfd-context.png)
+- 0-деңгейлі диаграмма (DFD Level 0): [`docs/analysis/dfd-level0.png`](docs/analysis/dfd-level0.png)
+- 1-деңгейлі диаграмма (DFD Level 1): [`docs/analysis/dfd-level1.png`](docs/analysis/dfd-level1.png)
 
 ## Дерекқор құрылымы (ERD және SQL)
 
-* ER-диаграмма: [`docs/database/erd.png`](docs/database/erd.png)
-* SQL скрипті (MySQL / XAMPP `agro_system`): [`docs/database/schema.sql`](docs/database/schema.sql)
-* Сұраныстар нәтижесі: [`docs/database/query-results.png`](docs/database/query-results.png)
-
+- ER-диаграмма: [`docs/database/erd.png`](docs/database/erd.png)
+- SQL скрипті (MySQL / XAMPP `agro_system`): [`docs/database/schema.sql`](docs/database/schema.sql)
+- Сұраныстар нәтижесі: [`docs/database/query-results.png`](docs/database/query-results.png)
 
 ---
 
@@ -27,17 +54,23 @@
 **Жоба тақырыбы:** Ауыл шаруашылығы саласын цифрландыруға арналған мобильді ақпараттық жүйе
 
 ### Түстер палитрасы
-* **Негізгі түс (`#2E7D32`):** Өсімдіктер, егістік алқаптары, негізгі әрекеттер
-* **Қосалқы акцент (`#0288D1`):** Суару, ылғалдылық, метеодеректер
-* **Ескерту және қате (`#E65100`, `#C62828`):** Ауа райы ескертулері, валидация және `alt` қате хабарламалары
+- **Негізгі түс (`#2E7D32`):** Өсімдіктер, егістік алқаптары, негізгі әрекеттер
+- **Қосалқы акцент (`#0288D1`):** Суару, ылғалдылық, метеодеректер
+- **Ескерту және қате (`#E65100`, `#C62828`):** Ауа райы ескертулері, валидация және `alt` қате хабарламалары
 
 ### Навигация және экрандар
-* Навигация диаграммасы: [`docs/ui/navigation.drawio`](docs/ui/navigation.drawio) және [`docs/ui/navigation.png`](docs/ui/navigation.png)
-* UI есебі мен өзіндік тексеру: [`docs/ui/evaluation.md`](docs/ui/evaluation.md)
-* Экран макеттері (`docs/ui/screens/`):
+- Навигация диаграммасы: [`docs/ui/navigation.drawio`](docs/ui/navigation.drawio) және [`docs/ui/navigation.png`](docs/ui/navigation.png)
+- UI есебі мен өзіндік тексеру: [`docs/ui/evaluation.md`](docs/ui/evaluation.md)
+- Экран макеттері (`docs/ui/screens/`):
   1. [`01-login.png`](docs/ui/screens/01-login.png) — Кіру экраны (`T1`)
   2. [`02-home.png`](docs/ui/screens/02-home.png) — Басты бет (`T2`, `T6`)
   3. [`03-field-crops.png`](docs/ui/screens/03-field-crops.png) — Егілген дақылдар тізімі (`T3`)
   4. [`04-add-agro-task.png`](docs/ui/screens/04-add-agro-task.png) — Агрошара қосу формасы және қате жағдайы (`T4`, `alt`)
   5. [`05-agro-tasks.png`](docs/ui/screens/05-agro-tasks.png) — Агрошаралар тізімі (`T5`)
   6. [`06-weather-alerts.png`](docs/ui/screens/06-weather-alerts.png) — Ауа райы ескертулері (`T6`)
+
+
+
+
+- Сценарий: **«Агротехникалық шара қосу»** (міндетті өрістер мен `ЖЖЖЖ-АА-КК` күн форматын тексеру, валидация сәтті болса дерекқорға сақтау, қате болса түзету хабарламасын шығару).
+- Диаграмма файлдары: `activity-submit-agro-task.drawio` / `.png` және `sequence-submit-agro-task.drawio` / `.png`.
