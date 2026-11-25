@@ -1,0 +1,349 @@
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram name="Страница-1" id="CyEFB_uZaDm1EYWlZS5s">
+    <mxGraphModel dx="1304" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Фермер (Агроном)" vertex="1">
+          <mxGeometry height="60" width="160" x="94" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Әкімші (Администратор)" vertex="1">
+          <mxGeometry height="60" width="160" x="254" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Ауа райы / IoT API" vertex="1">
+          <mxGeometry height="60" width="160" x="850" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="0.0&#xa;Ауыл шаруашылығын цифрландыру мобильді ақпараттық жүйесі" vertex="1">
+          <mxGeometry height="160" width="240" x="430" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6" edge="1" parent="1" source="2" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.05;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" target="5" value="Тіркелу, алқап деректері, агрошаралар, өнім есебі">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" edge="1" parent="1" source="5" style="endArrow=classic;html=1;exitX=0.05;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="2" value="Алқаптар күйі, ауа райы, ескертулер, аналитика">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" edge="1" parent="1" source="3" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.15;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;" target="5" value="Дақылдар анықтамалығы, пайдаланушыларды басқару">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" edge="1" parent="1" source="5" style="endArrow=classic;html=1;exitX=0.25;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="3" value="Жүйелік статистика, пайдаланушылар тізімі">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="5" style="endArrow=classic;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="4" value="Алқап координаталары">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="4" style="endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" target="5" value="Метеодеректер (температура, ылғалдылық)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="23-_tVq0aMW8V-RfGtEI" name="Страница-2">
+    <mxGraphModel dx="1515" dy="976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Фермер (Агроном)" vertex="1">
+          <mxGeometry height="55" width="150" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Әкімші (Администратор)" vertex="1">
+          <mxGeometry height="55" width="150" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Ауа райы / IoT API" vertex="1">
+          <mxGeometry height="55" width="160" x="1150" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="1.0&#xa;Пайдаланушылар мен анықтамалықтарды басқару" vertex="1">
+          <mxGeometry height="95" width="220" x="340" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="2.0&#xa;Егістік алқаптары мен дақылдарды тіркеу" vertex="1">
+          <mxGeometry height="95" width="220" x="340" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="3.0&#xa;Агротехникалық шаралар мен өнімділікті есепке алу" vertex="1">
+          <mxGeometry height="100" width="230" x="340" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="4.0&#xa;Метеодеректерді талдау және ескертулер қалыптастыру" vertex="1">
+          <mxGeometry height="100" width="230" x="760" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="D1 | Users" vertex="1">
+          <mxGeometry height="40" width="160" x="760" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="D3 | Crops" vertex="1">
+          <mxGeometry height="40" width="160" x="760" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="D2 | Fields" vertex="1">
+          <mxGeometry height="40" width="160" x="760" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="D4 | Field_Crops" vertex="1">
+          <mxGeometry height="40" width="160" x="760" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="d5" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="D5 | Agro_Tasks" vertex="1">
+          <mxGeometry height="40" width="160" x="760" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="d6" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="D6 | Weather_Alerts" vertex="1">
+          <mxGeometry height="40" width="160" x="795" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" edge="1" parent="1" source="e1" style="endArrow=classic;html=1;" target="p1" value="Тіркелу деректері">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" edge="1" parent="1" source="e2" style="endArrow=classic;html=1;" target="p1" value="Дақыл анықтамалығы, басқару">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" edge="1" parent="1" source="p1" style="endArrow=classic;html=1;" target="e2" value="Статистика және тізім">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" edge="1" parent="1" source="e1" style="endArrow=classic;html=1;" target="p2" value="Алқап және егіс деректері">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5" edge="1" parent="1" source="p2" style="endArrow=classic;html=1;" target="e1" value="Алқаптар күйі">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6" edge="1" parent="1" source="e1" style="endArrow=classic;html=1;" target="p3" value="Агрошаралар, өнім есебі">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7" edge="1" parent="1" source="p3" style="endArrow=classic;html=1;" target="e1" value="Өнімділік аналитикасы">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8" edge="1" parent="1" source="p4" style="endArrow=classic;html=1;" target="e1" value="Ауа райы болжамы, ескертулер">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9" edge="1" parent="1" source="p4" style="endArrow=classic;html=1;" target="e3" value="Алқап координаталары">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f10" edge="1" parent="1" source="e3" style="endArrow=classic;html=1;" target="p4" value="Метеодеректер">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" edge="1" parent="1" source="p1" style="endArrow=classic;startArrow=classic;html=1;" target="d1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" edge="1" parent="1" source="p1" style="endArrow=classic;startArrow=classic;html=1;" target="d3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" edge="1" parent="1" source="p2" style="endArrow=classic;startArrow=classic;html=1;" target="d2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" edge="1" parent="1" source="p2" style="endArrow=classic;startArrow=classic;html=1;" target="d4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5" edge="1" parent="1" source="p3" style="endArrow=classic;startArrow=classic;html=1;" target="d4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6" edge="1" parent="1" source="p3" style="endArrow=classic;startArrow=classic;html=1;" target="d5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7" edge="1" parent="1" source="d2" style="endArrow=classic;html=1;" target="p4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8" edge="1" parent="1" source="p4" style="endArrow=classic;startArrow=classic;html=1;" target="d6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nRNiETph0mLWLzug4HyK" name="Страница-3">
+    <mxGraphModel dx="1288" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Фермер (Агроном)" vertex="1">
+          <mxGeometry height="55" width="150" x="40" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="p31" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="3.1&#xa;Агротехникалық жұмысты тіркеу" vertex="1">
+          <mxGeometry height="90" width="210" x="340" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p32" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="3.2&#xa;Шаралардың орындалу күйін жаңарту" vertex="1">
+          <mxGeometry height="90" width="210" x="340" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p33" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="3.3&#xa;Жиналған өнім мен аналитиканы есептеу" vertex="1">
+          <mxGeometry height="95" width="220" x="340" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="D4 | Field_Crops" vertex="1">
+          <mxGeometry height="40" width="160" x="760" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d5" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="D5 | Agro_Tasks" vertex="1">
+          <mxGeometry height="40" width="160" x="760" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="D2 | Fields" vertex="1">
+          <mxGeometry height="40" width="160" x="760" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="D3 | Crops" vertex="1">
+          <mxGeometry height="40" width="160" x="760" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" edge="1" parent="1" source="e1" style="endArrow=classic;html=1;" target="p31" value="Агрошара туралы мәлімет">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" edge="1" parent="1" source="d4" style="endArrow=classic;html=1;" target="p31" value="Егіс ID деректері">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" edge="1" parent="1" source="p31" style="endArrow=classic;html=1;" target="d5" value="Жаңа агрошара жазбасы">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" edge="1" parent="1" source="e1" style="endArrow=classic;html=1;" target="p32" value="Орындалу мәртебесі">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" edge="1" parent="1" source="p32" style="endArrow=classic;startArrow=classic;html=1;" target="d5" value="Мәртебені жаңарту">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" edge="1" parent="1" source="e1" style="endArrow=classic;html=1;" target="p33" value="Өнім жинау есебі (тонна)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7" edge="1" parent="1" source="d2" style="endArrow=classic;html=1;" target="p33" value="Алқап ауданы">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8" edge="1" parent="1" source="d3" style="endArrow=classic;html=1;" target="p33" value="Дақыл сұрпы">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9" edge="1" parent="1" source="d5" style="endArrow=classic;html=1;" target="p33" value="Орындалған жұмыстар">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a10" edge="1" parent="1" source="p33" style="endArrow=classic;startArrow=classic;html=1;" target="d4" value="Өнім көрсеткішін сақтау">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a11" edge="1" parent="1" source="p33" style="endArrow=classic;html=1;" target="e1" value="Өнімділік аналитикасы">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kYRpv23k34Pgu6SgjNex" name="Страница-4">
+    <mxGraphModel dx="1338" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t_users" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Users" vertex="1">
+          <mxGeometry height="170" width="220" x="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_pk" parent="t_users" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;fontStyle=1;" value="PK | user_id : SERIAL" vertex="1">
+          <mxGeometry height="28" width="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_2" parent="t_users" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="full_name : VARCHAR(100)" vertex="1">
+          <mxGeometry height="28" width="220" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="u_3" parent="t_users" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="phone_number : VARCHAR(20)" vertex="1">
+          <mxGeometry height="28" width="220" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="u_4" parent="t_users" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="role : VARCHAR(20)" vertex="1">
+          <mxGeometry height="28" width="220" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="u_5" parent="t_users" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="created_at : TIMESTAMP" vertex="1">
+          <mxGeometry height="28" width="220" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fields" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="Fields" vertex="1">
+          <mxGeometry height="198" width="230" x="410" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f_pk" parent="t_fields" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;fontStyle=1;" value="PK | field_id : SERIAL" vertex="1">
+          <mxGeometry height="28" width="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f_fk" parent="t_fields" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;fontStyle=2;" value="FK | user_id : INT" vertex="1">
+          <mxGeometry height="28" width="230" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="f_3" parent="t_fields" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="field_name : VARCHAR(100)" vertex="1">
+          <mxGeometry height="28" width="230" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="f_4" parent="t_fields" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="area_hectares : DECIMAL(10,2)" vertex="1">
+          <mxGeometry height="28" width="230" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="f_5" parent="t_fields" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="soil_type : VARCHAR(50)" vertex="1">
+          <mxGeometry height="28" width="230" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="f_6" parent="t_fields" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="coordinates : VARCHAR(100)" vertex="1">
+          <mxGeometry height="28" width="230" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="t_crops" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="Crops" vertex="1">
+          <mxGeometry height="170" width="220" x="810" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pk" parent="t_crops" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;fontStyle=1;" value="PK | crop_id : SERIAL" vertex="1">
+          <mxGeometry height="28" width="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c_2" parent="t_crops" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="crop_name : VARCHAR(100)" vertex="1">
+          <mxGeometry height="28" width="220" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="c_3" parent="t_crops" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="variety : VARCHAR(100)" vertex="1">
+          <mxGeometry height="28" width="220" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="c_4" parent="t_crops" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="growth_days : INT" vertex="1">
+          <mxGeometry height="28" width="220" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="c_5" parent="t_crops" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="optimal_temp : VARCHAR(30)" vertex="1">
+          <mxGeometry height="28" width="220" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fc" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Field_Crops (M:N)" vertex="1">
+          <mxGeometry height="198" width="230" x="610" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="fc_pk" parent="t_fc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;fontStyle=1;" value="PK | field_crop_id : SERIAL" vertex="1">
+          <mxGeometry height="28" width="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fc_fk1" parent="t_fc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;fontStyle=2;" value="FK | field_id : INT" vertex="1">
+          <mxGeometry height="28" width="230" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="fc_fk2" parent="t_fc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;fontStyle=2;" value="FK | crop_id : INT" vertex="1">
+          <mxGeometry height="28" width="230" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="fc_4" parent="t_fc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="planting_date : DATE" vertex="1">
+          <mxGeometry height="28" width="230" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="fc_5" parent="t_fc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="harvest_date : DATE" vertex="1">
+          <mxGeometry height="28" width="230" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="fc_6" parent="t_fc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="yield_tons : DECIMAL(10,2)" vertex="1">
+          <mxGeometry height="28" width="230" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="t_tasks" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" value="Agro_Tasks" vertex="1">
+          <mxGeometry height="198" width="230" x="610" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="at_pk" parent="t_tasks" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;fontStyle=1;" value="PK | task_id : SERIAL" vertex="1">
+          <mxGeometry height="28" width="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="at_fk" parent="t_tasks" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;fontStyle=2;" value="FK | field_crop_id : INT" vertex="1">
+          <mxGeometry height="28" width="230" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="at_3" parent="t_tasks" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="task_type : VARCHAR(100)" vertex="1">
+          <mxGeometry height="28" width="230" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="at_4" parent="t_tasks" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="scheduled_date : DATE" vertex="1">
+          <mxGeometry height="28" width="230" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="at_5" parent="t_tasks" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="status : VARCHAR(30)" vertex="1">
+          <mxGeometry height="28" width="230" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="at_6" parent="t_tasks" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="notes : TEXT" vertex="1">
+          <mxGeometry height="28" width="230" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="t_alerts" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Weather_Alerts" vertex="1">
+          <mxGeometry height="198" width="230" x="210" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="wa_pk" parent="t_alerts" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;fontStyle=1;" value="PK | alert_id : SERIAL" vertex="1">
+          <mxGeometry height="28" width="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wa_fk" parent="t_alerts" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;fontStyle=2;" value="FK | field_id : INT" vertex="1">
+          <mxGeometry height="28" width="230" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="wa_3" parent="t_alerts" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="alert_type : VARCHAR(100)" vertex="1">
+          <mxGeometry height="28" width="230" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="wa_4" parent="t_alerts" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="temperature : DECIMAL(5,2)" vertex="1">
+          <mxGeometry height="28" width="230" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="wa_5" parent="t_alerts" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="humidity : INT" vertex="1">
+          <mxGeometry height="28" width="230" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="wa_6" parent="t_alerts" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;" value="created_at : TIMESTAMP" vertex="1">
+          <mxGeometry height="28" width="230" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" edge="1" parent="1" source="t_users" style="endArrow=ERmany;startArrow=ERone;html=1;" target="t_fields" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" edge="1" parent="1" source="t_fields" style="endArrow=ERmany;startArrow=ERone;html=1;" target="t_fc" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" edge="1" parent="1" source="t_crops" style="endArrow=ERmany;startArrow=ERone;html=1;" target="t_fc" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" edge="1" parent="1" source="t_fc" style="endArrow=ERmany;startArrow=ERone;html=1;" target="t_tasks" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5" edge="1" parent="1" source="t_fields" style="endArrow=ERmany;startArrow=ERone;html=1;" target="t_alerts" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
