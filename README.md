@@ -68,3 +68,9 @@
   4. [`04-add-agro-task.png`](docs/ui/screens/04-add-agro-task.png) — Агрошара қосу формасы және қате жағдайы (`T4`, `alt`)
   5. [`05-agro-tasks.png`](docs/ui/screens/05-agro-tasks.png) — Агрошаралар тізімі (`T5`)
   6. [`06-weather-alerts.png`](docs/ui/screens/06-weather-alerts.png) — Ауа райы ескертулері (`T6`)
+
+
+
+
+- Сценарий: **«Агротехникалық шара қосу»** (міндетті өрістер мен `ЖЖЖЖ-АА-КК` күн форматын тексеру, валидация сәтті болса дерекқорға сақтау, қате болса түзету хабарламасын шығару).
+- Диаграмма файлдары: `activity-submit-agro-task.drawio` / `.png` және `sequence-submit-agro-task.drawio` / `.png`.
